@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+.wrap-1 {
+    background: url(../img/bg.jpg)center center/cover;
+    font-family: monospace;
+}
+
+.wrap-1 span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+}
+
+.wrap-1 p {
+    font-size: 23.65 px;
+    text-transform: uppercase;
+    border: 2px dashed black;
+    font-family: fantasy;
+    font-weight: normal;
+    width: 350px;
+}
+
+.wrap-1 h2 {
+    font-size: 7rem;
+    font-family: fantasy;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 15px white;
+}
+
+.wrap-1 h4 {
+    font-size: 56.49px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: fantasy;
+    text-shadow: 3px 3px 15px white;
+}
+
+.wrap-1 .burgar img {
+    filter: drop-shadow(0 42px 40px #fff);
+}
+
+.wrap-2 img {
+    border-radius: 10px;
+}
+
+.wrap-3 button {
+    background-color: #ffc045;
+    height: 50px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+}
+
+.wrap-3 h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.wrap-3 p {
+    font-family: system-ui, sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.wrap-3 h4 {
+    text-transform: uppercase;
+    margin: 8rem 0px 1rem 0px;
+}
+.shado {
+    position: relative;
+}
+
+.wrap-3 .shado::after {
+    content: "";
+    background-image: url(../img/ed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    top: 100%;
+    height: 100px;
+    width: 100%;
+}
+.wrap-4{
+    background-color: #ffffff;
+}
+.wrap-4 .nxt .next li{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #e7c505;
+}
+.wrap-4 span {
+    text-transform: uppercase;
+    font-weight: bolt;
+    font-size: 29px;
+    font-family: fantasy;
+
+}
+
+.wrap-4 h2 {
+    font-size: 41px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    text-shadow: 3px 3px 15px #e7c505
+}
+.wrap-5 {
+    background: url(../img/contactbg.png)center center/cover;
+    height: 100vh;
+}
+
+.wrap-5 h2 {
+    font-size: 50px;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+
+.wrap-5 h3 {
+    text-transform: uppercase;
+}
+
+.wrap-5 button {
+    font-family: fantasy;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: red;
+    color: #fff;
+    font-size: 35px;
+}
+
+.wrap-5 input {
+    height: 60px;
+}
+.wrap-6{
+    background: url(../img/footerbg.png)center center/cover;
+}
+.wrap-6 p{
+    color: #fff;
+    padding: 10px;
+}
+.wrap-6 i{
+    color: #fff;
+    margin: 10px;
+}
